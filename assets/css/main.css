@@ -910,6 +910,7 @@
 				margin: 0 auto;
 				border-radius: 100%;
 				box-shadow: 0 0 0 1.5em #ffffff;
+				position: relative;
 			}
 
 			#main .avatar:before {
@@ -1027,4 +1028,9 @@
 
 		body.is-ie #wrapper {
 			height: 100%;
+		}
+
+		#contact-form{
+			margin-top: 10px;
+			display: none;
 		}
